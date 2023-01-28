@@ -4,7 +4,7 @@ const rapid = (myString) => {
         if(['a','e','i','o','u'].includes(letter) == false)
             consonants.push(letter)
     }
-    return consonants.join('');
+    return consonants.join('').toUpperCase();
 };
 
 // Work above this line; do not change code below
